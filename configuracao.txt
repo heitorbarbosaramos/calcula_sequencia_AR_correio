@@ -1,0 +1,84 @@
+Eclipse 3.4 ou superior
+
+
+Java EfectX SDK
+https://gluonhq.com/products/javafx/
+
+Personalize nova Librare com os arquivos do link acima
+
+Window -> preferences
+
+Na Tela Preferences
+
+Java -> Build path -> User Libraries
+
+New Librare -> Coloque o nome da nova biblioteca
+
+adcionar os jar da pasta do download -> \libs-java\javafx-sdk\lib
+
+------------------------------------------------------
+
+Java EfectX SDK - > Maven
+
+<!-- DEPENCIAS DO JAVA FX -->
+		<dependency>
+			<groupId>org.openjfx</groupId>
+			<artifactId>javafx-base</artifactId>
+			<version>15-ea+2</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.openjfx</groupId>
+			<artifactId>javafx-controls</artifactId>
+			<version>15-ea+2</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.openjfx</groupId>
+			<artifactId>javafx-fxml</artifactId>
+			<version>15-ea+2</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.openjfx</groupId>
+			<artifactId>javafx-graphics</artifactId>
+			<version>15-ea+2</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.openjfx</groupId>
+			<artifactId>javafx-media</artifactId>
+			<version>15-ea+2</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.openjfx</groupId>
+			<artifactId>javafx-swing</artifactId>
+			<version>15-ea+2</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.openjfx</groupId>
+			<artifactId>javafx-web</artifactId>
+			<version>15-ea+2</version>
+		</dependency>
+
+------------------------------------------------------
+Instalar o plug-in E(fx)clipse no Eclipse (ATENÇÃO: versão 3.4.1 ou superior, versões anteriores podem apresentar problema)
+Help -> Install New Software
+
+Na Work with, cole o endereço abaixo para pesquisar o plugin do javaFX
+http://download.eclipse.org/efxclipse/updates-released/3.4.1/site/ 
+
+
+------------------------------------------------------
+Instalação SceneBuilder
+
+Scene Builder: https://gluonhq.com/products/scene-builder/ 
+Após instação do SceneBuider deve refeenciar o SceneBuilder no eclipse
+
+Window -> preferences
+
+Na Tela Preferences
+
+JavaFX -> cole o caminho do executavel instalado SceneBuider.exe
