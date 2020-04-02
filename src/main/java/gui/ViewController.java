@@ -15,6 +15,7 @@ import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
+import javafx.scene.control.MenuItem;
 import javafx.scene.control.TextField;
 import javafx.scene.control.Alert.AlertType;
 
@@ -41,9 +42,9 @@ public class ViewController extends AR implements Initializable{
 	@FXML
 	String mensagemStatus;
 	@FXML
-	private Button btDownload;
+	private MenuItem menuDownload;
 	@FXML
-	private Button btAbout;
+	private MenuItem menuAbout;
 	private String descricaoPrefixo;
 	private String nomeArquivo;
 	
